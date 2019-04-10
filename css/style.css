@@ -1,0 +1,51 @@
+
+#eyes {
+    position: absolute;
+    width: 50%;
+    left: 125px;
+    top: 200px ;
+    
+}
+
+#hat {
+    position: absolute;
+    width: 65%;
+    left: 100px;
+    top: 60px;
+}
+#mouth {
+    position: absolute;
+    width: 50%;
+    z-index: 0;
+    left: 150px;
+    top: 50px;
+}
+#nose {
+    position: absolute;
+    width: 30%;
+    left: 175px;
+    z-index: 1;
+    
+}
+#feet {
+    position: absolute;
+    top: 200px;
+    
+    
+}
+.upper{
+    border: 1px dashed blue;
+    height:350px;
+    position: relative;
+}
+.lower{
+    border: 1px dashed red;
+    height:350px;
+    position: relative;
+}
+#body {
+    background-image: url('../images/body.png'); 
+    height:700px;
+    width: 500px;
+    border: 2px dashed black;
+}
